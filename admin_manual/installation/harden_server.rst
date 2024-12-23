@@ -132,7 +132,7 @@ While redirecting all traffic to HTTPS is good, it may not completely prevent
 man-in-the-middle attacks. Thus administrators are encouraged to set the HTTP 
 Strict Transport Security header, which instructs browsers to not allow any 
 connection to the Nextcloud instance using HTTP, and it attempts to prevent site 
-visitors from bypassing invalid certificate warnings.
+visitors from bypassing warnings about invalid certificates.
 
 This can be achieved by setting the following settings within the Apache 
 VirtualHost file::
